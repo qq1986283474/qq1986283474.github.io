@@ -1,0 +1,3 @@
+var posts=["markdown-advance-syntax.html","academia-example.html","guide-how-to-build-site-0.html","guide-how-to-build-site-1.html","guide-how-to-build-site-2.html","guide-how-to-build-site-3.html","guide-how-to-build-site-4.html","guide-how-to-build-site-5.html","guide-how-to-build-site-6.html","guide-how-to-build-site-7.html","guide-how-to-build-site-8.html","guide-how-to-build-site-9.html"];function toRandomPost(){
+    pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
+  };
